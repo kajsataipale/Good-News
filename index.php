@@ -1,7 +1,7 @@
 <?php
-
-require(__DIR__.'/functions.php');
-require(__DIR__.'/data.\php');
+//
+require __DIR__.'/functions.php';
+require __DIR__.'/data.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,39 +14,19 @@ require(__DIR__.'/data.\php');
   <title>Good News</title>
 </head>
 <body>
-<div class="wrapper">
+  <div class="wrapper">
 
-  <div class="box one">
-    <h1>hello</h1>
+<?php foreach ($posts as $post):?>
+    <div class="box">
+      <div class="author"><?php echo $post['author'] ;?></div>
+      <div class="content"><?php echo $post['content'];?></div>
+      <div class="date"><?php echo $post['date'];?></div>
+      <div class="Fullname"><?php echo $post['Fullname'];?></div>
+    </div>
+<?php endforeach; ?>
 
-<small><?php  echo $posts ?></small>
+
   </div>
-
-  <div class="box two">
-    <h1>hello</h1>
-
-<small><?php  echo $day ?></small>
-  </div>
-
-  <div class="box three">
-    <h1>hello</h1>
-
-<small><?php  echo $day ?></small>
-  </div>
-
-  <div class="box four">
-        <h1>hello</h1>
-
-<small><?php  echo $day ?></small>
-  </div>
-
-  <div class="box five">
-        <h1>hello</h1>
-
-<small><?php  echo $day ?></small>
-  </div>
-
-</div>
 
 </body>
 </html>
