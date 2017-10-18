@@ -21,7 +21,7 @@ require __DIR__.'/data.php';
       <div class="author"><?php echo $post['author'] ;?></div>
       <div class="content"><?php echo $post['content'];?></div>
       <div class="date"><?php echo $post['date'];?></div>
-      <div class="Fullname"><?php echo $post['Fullname']['name'];?></div>
+      <div class="Fullname"><?php echo 'By: '. $post['Fullname']['name'];?></div>
       <div class="like"><?php echo $post['like'];?></div>
     </div>
 <?php endforeach; ?>

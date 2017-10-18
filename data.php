@@ -27,7 +27,7 @@ $posts = [
 
   ['author'=> 'Leonardo',
   'Fullname' => ['id' => '003',
-  'name' => 'By: Leonardo DiCaprio'],
+  'name' => 'Leonardo DiCaprio'],
   'content'=>'My mother is a walking miracle.',
   'date' =>'2010-07-16',
   'like' => 75
@@ -35,7 +35,7 @@ $posts = [
 
   ['author'=> 'Bane',
   'Fullname' => ['ida' => '004',
-  'name' => 'By: Tom Hardy'],
+  'name' => 'Tom Hardy'],
   'content' =>'Ooh, you think darkness is your ally?
   You merely adopted the dark, I was born in it. Molded by it.
   I didn\'t see the light until I was already a man.
@@ -46,7 +46,7 @@ $posts = [
 
   ['author'=> 'Barney',
   'Fullname' => ['id' => '005',
-  'name' => 'By: Barney Stinson'],
+  'name' => 'Barney Stinson'],
   'content' =>'It\'s going to be legen...wait for it...and I hope you\'re
   snot lactose-intolerant cause the second half of that word is...dairy!',
   'date' =>'2013-02-18',
@@ -71,7 +71,7 @@ $posts = [
 
   ['author'=> 'Leonardo',
   'Fullname' => ['id' => '003',
-  'name' => 'By: Leonardo DiCaprio'],
+  'name' => 'Leonardo DiCaprio'],
   'content'=>'If I want to go to a party with a few male friends, it doesn\'t
   mean I\'m gay.',
   'date' =>'2010-07-16',
@@ -81,7 +81,7 @@ $posts = [
 
   ['author'=> 'Bane',
   'Fullname' => ['ida' => '004',
-  'name' => 'By: Tom Hardy'],
+  'name' => 'Tom Hardy'],
   'content' =>'Do you feel in charge?',
   'date' =>'2012-07-20',
   'like' => 98
@@ -89,7 +89,7 @@ $posts = [
 
   ['author'=> 'Barney',
   'Fullname' => ['id' => '005',
-   'name' => 'By: Barney Stinson'],
+   'name' => 'Barney Stinson'],
   'content' =>'When I\'m sad, I stop being sad, and be awesome instead! True Story..',
   'date' =>'2013-02-18',
   'like' => 104

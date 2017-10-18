@@ -17,9 +17,8 @@ body {
   background-color: #f5f5f5;
   width: 50%;
   margin-bottom: 20px;
-}
-
-hr {
-
-background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
