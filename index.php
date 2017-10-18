@@ -14,7 +14,11 @@ require __DIR__.'/data.php';
   <title>Good News</title>
 </head>
 <body>
+  <!-- My wrapper that goes around the whole content on the page -->
   <div class="wrapper">
+
+ <!-- Here's where I echo out all my information on the page,
+ to do so I have used a foreach loop.  -->
 
 <?php foreach ($posts as $post):?>
     <div class="box">
@@ -25,6 +29,7 @@ require __DIR__.'/data.php';
       <div class="like"><?php echo $post['like'];?></div>
     </div>
 <?php endforeach; ?>
+<!-- The end of the foreach loop -->
 
 
   </div>

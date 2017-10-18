@@ -1,7 +1,9 @@
 <?php
 declare (strict_types=1);
 
-
+// My array with all the information that I want on my page.
+// every array has an aditional array whitin it.
+// So that I can link an id to an author.
 
 $posts = [
   ['author'=> 'Batman',
@@ -15,7 +17,6 @@ $posts = [
   'date' =>'2012-07-20',
   'like' => 17
 ],
-
   ['author'=> 'Albert',
   'Fullname' => ['id'=> '002',
   'name' => 'Albet Einstein'],

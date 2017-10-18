@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: salmon;
 }
-
+/* Here's where I style the wrapper that's the entire page*/
 .wrapper {
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ body {
   margin: auto;
 }
 
-
+/* Here's where the box around the blogg post is styled*/
 .box {
   background-color: #f5f5f5;
   width: 50%;
@@ -22,3 +22,4 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+/* Here's where I style every items in the bloggpost*/
