@@ -16,16 +16,22 @@ require __DIR__.'/data.php';
 <body>
   <!-- My wrapper that goes around the whole content on the page -->
   <div class="wrapper">
-
+<header>
+  <h1>Welcome to da blogg</h1>
+</header>
  <!-- Here's where I echo out all my information on the page,
  to do so I have used a foreach loop.  -->
 
 <?php foreach ($posts as $post):?>
     <div class="box">
+      <img src="images/<?php echo $post['Fullname']['id'] ?>.jpg">
       <div class="author"><?php echo $post['author'] ;?></div>
       <div class="content"><?php echo $post['content'];?></div>
+      <div class="footerinbox">
       <div class="date"><?php echo $post['date'];?></div>
-      <div class="Fullname"><?php echo 'By: '. $post['Fullname']['name'];?></div>
+      <div class="Fullname"><?php echo 'Author: '. $post['Fullname']['name'];?></div>
+      </div>
+      <img class="logo" src="images/like.png" alt="likelogo">
       <div class="like"><?php echo $post['like'];?></div>
     </div>
 <?php endforeach; ?>
@@ -33,6 +39,7 @@ require __DIR__.'/data.php';
 
 
   </div>
+
 
 </body>
 </html>
