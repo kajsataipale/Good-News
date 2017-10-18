@@ -12,7 +12,8 @@ $posts = [
   simple and reassuring as putting a coat around a young boy
   shoulders to let him
   know the world hadn\'t ended.',
-  'date' =>'2012-07-20'
+  'date' =>'2012-07-20',
+  'like' => 17
 ],
 
   ['author'=> 'Albert',
@@ -20,14 +21,16 @@ $posts = [
   'name' => 'Albet Einstein'],
   'content' =>'Education is what
   remains after one has forgotten everything he learned in school',
-  'date' => '2016-10-18'
+  'date' => '2016-10-18',
+  'like' => 93
 ],
 
   ['author'=> 'Leonardo',
   'Fullname' => ['id' => '003',
   'name' => 'By: Leonardo DiCaprio'],
   'content'=>'My mother is a walking miracle.',
-  'date' =>'2010-07-16'
+  'date' =>'2010-07-16',
+  'like' => 75
 ],
 
   ['author'=> 'Bane',
@@ -37,7 +40,8 @@ $posts = [
   You merely adopted the dark, I was born in it. Molded by it.
   I didn\'t see the light until I was already a man.
   By then there was nothing to be but blinded.',
-  'date' =>'2012-07-20'
+  'date' =>'2012-07-20',
+  'like' => 103
 ],
 
   ['author'=> 'Barney',
@@ -45,21 +49,24 @@ $posts = [
   'name' => 'By: Barney Stinson'],
   'content' =>'It\'s going to be legen...wait for it...and I hope you\'re
   snot lactose-intolerant cause the second half of that word is...dairy!',
-  'date' =>'2013-02-18'
+  'date' =>'2013-02-18',
+  'like' => 95
 ],
 
   ['author'=> 'Batman',
   'Fullname' => ['id'=>'001',
   'name' => 'Bruce Wayne'],
   'content' =>'No guns, no killing.',
-  'date' =>'2012-07-20'
+  'date' =>'2012-07-20',
+  'like' => 12
 ],
 
   ['author'=> 'Albert',
   'Fullname' => ['id'=> '002',
   'name' => 'Albet Einstein'],
   'content' =>'The only thing that interferes with my learning is my education.',
-  'date' =>'2016-10-18'
+  'date' =>'2016-10-18',
+  'like' => 53
 ],
 
   ['author'=> 'Leonardo',
@@ -67,7 +74,8 @@ $posts = [
   'name' => 'By: Leonardo DiCaprio'],
   'content'=>'If I want to go to a party with a few male friends, it doesn\'t
   mean I\'m gay.',
-  'date' =>'2010-07-16'
+  'date' =>'2010-07-16',
+  'like' => 36
 ],
 
 
@@ -75,14 +83,16 @@ $posts = [
   'Fullname' => ['ida' => '004',
   'name' => 'By: Tom Hardy'],
   'content' =>'Do you feel in charge?',
-  'date' =>'2012-07-20'
+  'date' =>'2012-07-20',
+  'like' => 98
 ],
 
   ['author'=> 'Barney',
   'Fullname' => ['id' => '005',
    'name' => 'By: Barney Stinson'],
   'content' =>'When I\'m sad, I stop being sad, and be awesome instead! True Story..',
-  'date' =>'2013-02-18'
+  'date' =>'2013-02-18',
+  'like' => 104
 ],
 
 ];
