@@ -22,15 +22,15 @@ require __DIR__.'/functions.php';
     </header>
 
 
-<!-- Code from bootstrap -->
+    <!-- Code from bootstrap -->
     <div class="col-md-12">
-                <ul class="social-network social-circle">
-                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
+      <ul class="social-network social-circle">
+        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
     </div>
 
     <!-- End of bootstrap code -->
@@ -60,6 +60,7 @@ require __DIR__.'/functions.php';
         </div>
 
       </div>
+
       <script  type="text/javascript" >
 
 
@@ -82,9 +83,9 @@ require __DIR__.'/functions.php';
     <?php endforeach; ?>
     <!-- The end of the foreach loop -->
 
-<footer>
-  &copy Kajsa Taipale
-</footer>
+    <footer>
+      &copy Kajsa Taipale <?php echo  $day; ?>
+    </footer>
 
   </div>
 
