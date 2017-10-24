@@ -38,6 +38,7 @@ header {
 footer {
   background-color: grey;
   width: 100%;
+  /*height: 350px;*/
   display: flex;
   justify-content: center;
 }
@@ -74,7 +75,7 @@ align-items:  center;
   width: 99%;
   align-items: center;
   background-color: grey;
-  opacity: 0.4;
+  
   margin: 1%;
   padding: 1%;
 
@@ -92,7 +93,7 @@ align-items:  center;
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  margin-left: 1%;
+  margin: 1%;
 }
 .author {
 font-size: 100%;
@@ -145,22 +146,15 @@ ul.social-network {
 
 }
 ul.social-network li {
-	/*display: flex;
-  align-items: center;
-  justify-content: center;*/
-	/*margin: 0 5px;*/
+	margin: 0 5px;
 }
-/* footer social icons */
+
 div .col-md-12 {
   background-color: rgba(255,255,255,0.65);
   width: 100%;
   margin-bottom: 20px;
-
-
 }
-.social-network a.icoRss:hover {
-	background-color: #F56505;
-}
+
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
 }
@@ -188,15 +182,19 @@ div .col-md-12 {
 	height: 50px;
 	font-size:20px;
 }
-.social-circle li i {
+.social-circle li .social {
 	margin:0;
 	line-height:50px;
 	text-align: center;
   align-self: center;
 }
 
-  .social-circle i {
+  .social-circle .social {
 	color: #fff;
+}
+
+.social {
+  width: 90%;
 }
 
 a {

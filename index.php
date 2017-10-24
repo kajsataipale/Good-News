@@ -11,7 +11,6 @@ require __DIR__.'/functions.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <title>Good News</title>
 </head>
 <body>
@@ -25,15 +24,16 @@ require __DIR__.'/functions.php';
     <!-- Code from bootstrap -->
     <div class="col-md-12">
       <ul class="social-network social-circle">
-        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        <!-- <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li> -->
+        <li><a href="#" class="icoFacebook" title="Facebook"><img src="images/facebook.png" class="social facebook"></i></a></li>
+        <li><a href="#" class="icoTwitter" title="Twitter"><img src="images/twitter.png" class="social twitter"></i></a></li>
+        <li><a href="#" class="icoGoogle" title="Google +"><img src="images/google.png" class="social google"></i></a></li>
+        <li><a href="#" class="icoLinkedin" title="Linkedin"><img src="images/in.png" class="social linkedin"></i></a></li>
       </ul>
     </div>
 
     <!-- End of bootstrap code -->
+
     <!-- Here's where I echo out all my information on the page,
     to do so I have used a foreach loop.  -->
 
@@ -61,25 +61,6 @@ require __DIR__.'/functions.php';
 
       </div>
 
-      <script  type="text/javascript" >
-
-
-      var element = document.getElementById("result");
-
-      function clickCounter(){
-        if (localStorage.clickcount) {
-          localStorage.clickcount = Number(localStorage.clickcount) + 1;
-        } else {
-          localStorage.clickcount = 1;
-        }
-        element.innerHTML = localStorage.clickcount;
-      }
-
-      window.onload = function() {
-        element.innerHTML = localStorage.clickcount;
-      }
-
-      </script>
     <?php endforeach; ?>
     <!-- The end of the foreach loop -->
 
@@ -91,6 +72,25 @@ require __DIR__.'/functions.php';
 
 
 
+  <script  type="text/javascript" >
+
+
+  var element = document.getElementById("result");
+  localStorage.clickcount=95;
+  function clickCounter(){
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount) + 1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    element.innerHTML = localStorage.clickcount;
+  }
+
+  window.onload = function() {
+    element.innerHTML = localStorage.clickcount;
+  }
+
+  </script>
 
 
 

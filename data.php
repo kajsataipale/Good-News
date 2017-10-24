@@ -5,8 +5,8 @@ declare (strict_types=1);
 // every array has an aditional array whitin it.
 // So that I can link an id to an author.
 
-$welcome='Welcome to da blogg';
-$day=date('Y-m-d '); 
+$welcome='Welcome to da blog';
+$day=date('Y-m-d ');
 
 $posts = [
   ['alias' => 'Batman',
