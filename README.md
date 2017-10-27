@@ -17,7 +17,7 @@
 ### Getting started
 
 1, Clone this repository (locally) to your desktop <br>
-2, Launch mamP on your computer (if you dont have mamP, go to and[download](https://www.mamp.info/en/) it.)<br>
+2, Launch mamP on your computer (if you dont have mamP, go to and[ download ](https://www.mamp.info/en/) it.)<br>
 3, Locate the cloned directory in mamP<br>
 4, Open up the browser and enter this (if you are on mac) "localhost:8888" or (if you are on windows, depending on open ports) "http://localhost:8888"<br>
 5, Due to that all the data i stored in your cloned directory you are now set.
@@ -28,7 +28,7 @@
 
 1, Maria Eidland <br>
 2, Emma Alborn <br>
-3, 
+3,
 
 
 
