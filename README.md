@@ -1,5 +1,5 @@
 # Good-News
-Welcome to my very first PHP project!
+###Welcome to my very first PHP project!
 <img src="https://media.giphy.com/media/13WtZ0r8Tu1Hoc/source.gif" alt="02 - Logic & Presentation" width="100%">
 
 ### The assignment was to create a news feed site with blog posts.
@@ -34,7 +34,7 @@ Welcome to my very first PHP project!
 
 ### Extra
 I have added profile pictures that's linked to a specific author.  
-Also I tried to add a working like button to every post,
+Also tried to add a working like button to every post,
 but it's a work in progress. For now the like button only works on the first post.
 
 ### License
