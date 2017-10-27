@@ -57,7 +57,7 @@ $posts = [
   'author' => ['id' => '005',
   'name' => 'Barney Stinson'],
   'content' =>'It\'s going to be legen...wait for it...and I hope you\'re
-  snot lactose-intolerant cause the second half of that word is...dairy!',
+  not lactose-intolerant cause the second half of that word is...dairy!',
   'date' =>'2013-02-18',
   'like' => 95
 ],
