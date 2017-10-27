@@ -1,5 +1,3 @@
-Hej Kajsa
-
 # Good-News
 ## Welcome to my very first PHP project!
 <img src="https://media.giphy.com/media/13WtZ0r8Tu1Hoc/source.gif" alt="02 - Logic & Presentation" width="100%">
