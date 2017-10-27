@@ -19,21 +19,6 @@ require __DIR__.'/functions.php';
     <header>
       <h1><?php echo $welcome ?></h1>
     </header>
-
-
-    <!-- Code from bootstrap -->
-    <div class="col-md-12">
-      <ul class="social-network social-circle">
-        <!-- <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li> -->
-        <li><a href="#" class="icoFacebook" title="Facebook"><img src="images/facebook.png" class="social facebook"></i></a></li>
-        <li><a href="#" class="icoTwitter" title="Twitter"><img src="images/twitter.png" class="social twitter"></i></a></li>
-        <li><a href="#" class="icoGoogle" title="Google +"><img src="images/google.png" class="social google"></i></a></li>
-        <li><a href="#" class="icoLinkedin" title="Linkedin"><img src="images/in.png" class="social linkedin"></i></a></li>
-      </ul>
-    </div>
-
-    <!-- End of bootstrap code -->
-
     <!-- Here's where I echo out all my information on the page,
     to do so I have used a foreach loop.  -->
 
@@ -58,9 +43,17 @@ require __DIR__.'/functions.php';
           <img type="button" onclick="clickCounter()" class="logo" src="images/like.png" alt="likelogo">
           <div  class="like" id="result"  > <?php echo $post['like'];?></div>
         </div>
-
+    <!-- Code from bootstrap -->
+        <div class="col-md-12">
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoFacebook" title="Facebook"><img src="images/facebook.png" class="social facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><img src="images/twitter.png" class="social twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><img src="images/google.png" class="social google"></i></a></li>
+            <li><a href="#" class="icoLinkedin" title="Linkedin"><img src="images/in.png" class="social linkedin"></i></a></li>
+          </ul>
+        </div>
       </div>
-
+  <!-- End of bootstrap code -->
     <?php endforeach; ?>
     <!-- The end of the foreach loop -->
 
@@ -90,6 +83,18 @@ require __DIR__.'/functions.php';
     element.innerHTML = localStorage.clickcount;
   }
 
+
+
+
+  $(document).ready(function () {
+     $('.forgot-pass').click(function(event) {
+       $(".pr-wrap").toggleClass("show-pass-reset");
+     });
+
+     $('.pass-reset-submit').click(function(event) {
+       $(".pr-wrap").removeClass("show-pass-reset");
+     });
+ });
   </script>
 
 

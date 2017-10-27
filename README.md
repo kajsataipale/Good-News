@@ -4,7 +4,7 @@ Welcome to my very first PHP project!
 
 ### The assignment was to create a news feed site with blog posts.
 
-### The list of criterias for this assignment was:
+### The list of criterias for this assignment was
 
 -> Title <br>
 -> Content<br>
@@ -14,7 +14,7 @@ Welcome to my very first PHP project!
 
 
 
-### Follow the instructions below to get started:
+### Getting started
 
 1, Clone this repository (locally) to your desktop
 2, Launch mamP on your computer (if you dont have mamP, go to and download it.)
@@ -24,8 +24,19 @@ Welcome to my very first PHP project!
 
 
 
-TESTING DONE BY:
+## TESTING DONE BY
 
 1,<br>
 2,<br>
 3,
+
+
+
+### Extra
+I have added profile pictures that's linked to a specific author.  
+Also I tried to add a working like button to every post,
+but it's a work in progress. For now the like button only works on the first post.
+
+### License
+
+Usage is provided under the [MIT License](http://http//opensource.org/licenses/mit-license.php).. See LICENSE for the full details.
