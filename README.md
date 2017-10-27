@@ -2,19 +2,19 @@
 Welcome to my very first PHP project!
 <img src="https://media.giphy.com/media/13WtZ0r8Tu1Hoc/source.gif" alt="02 - Logic & Presentation" width="100%">
 
-- The assignment was to create a news feed site with blog posts.
+### The assignment was to create a news feed site with blog posts.
 
-The list of criterias for this assignment was:
+### The list of criterias for this assignment was:
 
--> Title
--> Content
--> Author
--> Published date
+-> Title <br>
+-> Content<br>
+-> Author<br>
+-> Published date<br>
 -> Like counter (the number of likes a news feed item has received)
 
 
 
-Follow the instructions below to get started:
+### Follow the instructions below to get started:
 
 1, Clone this repository (locally) to your desktop
 2, Launch mamP on your computer (if you dont have mamP, go to and download it.)
@@ -26,6 +26,6 @@ Follow the instructions below to get started:
 
 TESTING DONE BY:
 
-1,
-2,
+1,<br>
+2,<br>
 3,
