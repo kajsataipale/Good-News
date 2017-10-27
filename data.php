@@ -24,7 +24,7 @@ $posts = [
   ['alias' => 'Albert',
   'title'=> 'What is education?',
   'author' => ['id'=> '002',
-  'name' => 'Albet Einstein'],
+  'name' => 'Albert Einstein'],
   'content' =>'Education is what
   remains after one has forgotten everything he learned in school',
   'date' => '1910-12-18',
