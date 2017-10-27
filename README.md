@@ -1,8 +1,8 @@
 # Good-News
-### Welcome to my very first PHP project!
+## Welcome to my very first PHP project!
 <img src="https://media.giphy.com/media/13WtZ0r8Tu1Hoc/source.gif" alt="02 - Logic & Presentation" width="100%">
 
-### The assignment was to create a news feed site with blog posts.
+## The assignment was to create a news feed site with blog posts.
 
 ### The list of criterias for this assignment was
 
@@ -24,7 +24,7 @@
 
 
 
-## TESTING DONE BY
+### TESTING DONE BY
 
 1,<br>
 2,<br>
