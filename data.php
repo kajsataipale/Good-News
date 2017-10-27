@@ -24,7 +24,7 @@ $posts = [
   ['alias' => 'Albert',
   'title'=> 'What is education?',
   'author' => ['id'=> '002',
-  'name' => 'Albet Einstein'],
+  'name' => 'Albert Einstein'],
   'content' =>'Education is what
   remains after one has forgotten everything he learned in school',
   'date' => '1910-12-18',
@@ -57,7 +57,7 @@ $posts = [
   'author' => ['id' => '005',
   'name' => 'Barney Stinson'],
   'content' =>'It\'s going to be legen...wait for it...and I hope you\'re
-  snot lactose-intolerant cause the second half of that word is...dairy!',
+  not lactose-intolerant cause the second half of that word is...dairy!',
   'date' =>'2013-02-18',
   'like' => 95
 ],
