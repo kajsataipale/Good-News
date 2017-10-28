@@ -4,7 +4,7 @@
 
 ## The assignment was to create a news feed site with blog posts.
 
-### List of criterias for this assignment 
+### List of criterias for this assignment
 
 - Title <br>
 - Content<br>
@@ -18,18 +18,18 @@ This project is built with HTML, CSS, Javascript and PHP.
 
 ### Getting started
 
-1 Clone this repository (locally) or download as a zip to your desktop <br>
-2 Launch MAMP  or similar local web server on your computer (if you dont have MAMP, go and[ download ](https://www.mamp.info/en/) it.<br>
-3 Locate the cloned directory in MAMP<br>
-4 Open up the browser and enter this (if you are on mac) "localhost:8888" or (if you are on windows, depending on open ports) "http://localhost:8888"<br>
-5 You are now set and can begin coding!
+1. Clone this repository (locally) or download as a zip to your desktop <br>
+2. Launch MAMP  or similar local web server on your computer (if you dont have MAMP, go and[ download ](https://www.mamp.info/en/) it.<br>
+3. Locate the cloned directory in MAMP<br>
+4. Open up the browser and enter this (if you are on mac) "localhost:8888" or (if you are on windows, depending on open ports) "http://localhost:8888"<br>
+5. You are now set and can begin coding!
 
 
 
 ### TESTING DONE BY
 
-1, Maria Eidland <br>
-2, Emma Alborn <br>
+1. Maria Eidland <br>
+2. Emma Alborn <br>
 
 
 
