@@ -3,8 +3,7 @@ declare (strict_types=1);
 
 
 // This function sort all the blogg posts after time.
-
-// $day= date("D, d M Y H:i:s O", strtotime($date));
+// so that the first blog post is at the bottom of the page and the last at the begining.
 
 function sortByDate (array $posts,array $posts1): bool
 {
