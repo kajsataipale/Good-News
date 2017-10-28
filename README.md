@@ -12,15 +12,17 @@
 -> Published date<br>
 -> Like counter (the number of likes a news feed item has received)
 
+### Languages
 
+This project is built with HTML, CSS, Javascript and PHP.
 
 ### Getting started
 
-1, Clone this repository (locally) to your desktop <br>
-2, Launch mamP on your computer (if you dont have mamP, go to and[ download ](https://www.mamp.info/en/) it.)<br>
-3, Locate the cloned directory in mamP<br>
+1, Clone this repository (locally) or download as a zip to your desktop <br>
+2, Launch MAMP  or similar local web server on your computer (if you dont have MAMP, go and[ download ](https://www.mamp.info/en/) it.<br>
+3, Locate the cloned directory in MAMP<br>
 4, Open up the browser and enter this (if you are on mac) "localhost:8888" or (if you are on windows, depending on open ports) "http://localhost:8888"<br>
-5, Due to that all the data i stored in your cloned directory you are now set.
+5, You are now set and can begin coding!
 
 
 
@@ -28,7 +30,7 @@
 
 1, Maria Eidland <br>
 2, Emma Alborn <br>
-3,
+
 
 
 
