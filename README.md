@@ -1,7 +1,7 @@
 # Good-News
 
 
-[StyleCI](https://styleci.io/repos/30237105/shield?style=flat)](https://styleci.io/repos/30237105)
+[![StyleCI](https://styleci.io/repos/107100338/shield?branch=master)](https://styleci.io/repos/107100338)
 ## Welcome to my very first PHP project!
 <img src="https://media.giphy.com/media/13WtZ0r8Tu1Hoc/source.gif" alt="02 - Logic & Presentation" width="100%">
 
