@@ -1,5 +1,12 @@
 <?php
-declare (strict_types=1);
+
+/*
+ *
+ * (c) Kajsa Taipale.
+ *
+ */
+
+declare(strict_types=1);
 
 // My array with all the information that I want on my page.
 // every array has an aditional array whitin it.
